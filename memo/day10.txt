@@ -1,0 +1,39 @@
+//JpaRepository<Type, Id>
+// Type: 엔티티 이름
+// Id: PK 자료형
+
+//Spring Data JPA
+// JpaRepository를 상속받은 인터페이스에 직접 구현체를 만든 후 주입해준다.
+
+findByMemberNameContaining
+=> like 쿼리 나감
+
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Builder
+-> 초기화 생성자의 모든 매개변수에 값이 들어와야 메모리에 할당된다.
+
+쿼리 메소드
+메소드 이름으로 쿼리를 생성할 수 있다.
+
+Like는 %어% 이런식으로 직접 넘겨주기
+
+type 안에 들어가 있는 컬럼은 @Query 어노테이션으로 직접 쿼리 짜주기
+
+ID에 이거 달아주기
+@equalsHashCode
+
+@EntityListeners(AuditingEntityListener.class)
+@MappedSuperclass
+@Getter
+public abstract class Period {
+    @CreatedDate
+    @Column(updatable = false)
+    private LocalDateTime createdDate;
+    @LastModifiedDate
+    private LocalDateTime updatedDate;
+
+부모에서는 생성자
+자식에서는 super 해서 생성자 생성'
+
+@Modifying(clearAutomatically = true)
+-> 쿼리 나간 후 클리어된다
