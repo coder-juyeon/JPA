@@ -9,7 +9,13 @@ findByMemberNameContaining
 => like 쿼리 나감
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+-> 외부에서 객체 생성을 막음과 동시에, Spring에서는 사용할 수 있돌록 PORTECTED로 설정한다.
+
+이제부터 dao가 아닌 repository로 생성
+-> interface로 선언
+-> 어노테이션 안붙여도 됨, extends JpaRepository
 @Builder
+-> 기본 생성자 만든 후 setter 썼을 때 빼먹은 값이 있을 수 있음
 -> 초기화 생성자의 모든 매개변수에 값이 들어와야 메모리에 할당된다.
 
 쿼리 메소드

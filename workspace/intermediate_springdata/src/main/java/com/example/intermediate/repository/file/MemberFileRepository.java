@@ -1,6 +1,5 @@
 package com.example.intermediate.repository.file;
 
-import com.example.intermediate.entity.file.MemberFile;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

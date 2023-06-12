@@ -1,0 +1,31 @@
+단방향
+	INSERT 실행 시, @JoinColumn으로 설정된 객체로만 FK를 추가할 수 있다.
+//        @JoinColumn이 설정되지 않은 연관객체로는 FK를 추가할 수 없다.
+
+양방향 
+	관계에서는 @JoinColumn을 사용하지 않아도 mappedBy로 FK를 설정한다.
+	mappedBy를 생략하면 모든 테이블에 FK가 생긴다.
+
+RDB에서 설계할 때 N 쪽에 FK를 두기 때문에
+	FK를 필드로 가지고 있는 엔티티가 연관관계의 주인이 되어야 한다.
+
+mappedBy
+	단방향 2개로 양방향을 설계했을 경우 서로 FK를 수정 및 추가할 수 있다.
+	그런데, 서로 수정을 하게 되면 양쪽 모두의 fk를 동기화해야 하기 때문에(일관성) 번거롭고 무결성에 위반될 수도 있다.
+	따라서, mappedBy를 사용하여 N 쪽의 FK를 연관관계의 주인으로 설정해야 한다.
+	mappedBy에 작성한 필드명은 RDB 진영에서 "_id"를 붙여 FK의 이름으로 사용된다. 
+
+	문제 발생
+	mappedBy를 question으로 설정했기 때문에,
+	question_id는 Question엔티티에서 관리하게 된다.
+	따라서 Answer 엔티티에 question_id를 추가하고 싶다면,
+	answer에 question을 넣어주어야 한다.
+	
+
+편의메소드
+	웬만하면 안쓰는 게 좋음
+	연관관곈의 주인 엔티티가 아닌 반대편 엔티티로 FK를 추가하고자 할 때
+	NULL값을 기존 FK값으로 변경하고자 사용한다.
+
+@EqualsAndHashCode.Include
+-> id를 HashCode로 설정한다.

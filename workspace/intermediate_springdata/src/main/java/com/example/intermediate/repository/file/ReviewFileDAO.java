@@ -1,7 +1,6 @@
 package com.example.intermediate.repository.file;
 
 import com.example.intermediate.entity.file.File;
-import com.example.intermediate.entity.file.MemberFile;
 import com.example.intermediate.entity.file.ReviewFile;
 import org.springframework.stereotype.Repository;
 

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39c77b2b-6418-499a-a65e-f2642f818bda" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../basic/src/main/java/com/example/basic/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic/src/main/java/com/example/basic/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/src/test/java/com/example/basic/repository/MemberRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic/src/test/java/com/example/basic/repository/MemberRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spy.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/BasicApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/domain/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/domain/entity/SuperCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/exception/NoSuchSuperCarException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/repository/MemberDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/repository/SuperCarDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/repository/SuperCarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/type/MemberType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basic/type/SuperCarType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/basic/BasicApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/basic/domain/entity/EntityTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/basic/repository/MemberDaoTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/basic/repository/MemberRepositoryTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/basic/repository/SuperCarDaoTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/basic/repository/SuperCarRepositoryTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/Board/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/Board/Like.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/entity/registeration/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/entity/registeration/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/entity/registeration/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/repository/board/LikeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/repository/board/LikeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/repository/inquire/BoardDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/repository/inquire/LikeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/repository/registeration/OwnerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/java/com/example/expert/type/BrandType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../expert/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert/src/test/java/com/example/expert/board/BoardTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate/src/main/java/com/example/intermediate/audit/Period.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intermediate/src/main/java/com/example/intermediate/audit/Period.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate/src/main/java/com/example/intermediate/entity/file/MEmberFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intermediate/src/main/java/com/example/intermediate/entity/file/MEmberFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../intermediate/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2OGxMm5By9PFpMhi8nFPpacXIT2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../intermediate_springdata" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.basic.domain.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MemberRepositoryTests.deleteByMemberAgeGreaterThanEqualTest">
+    <configuration name="MemberRepositoryTests.deleteByMemberAgeGreaterThanEqualTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.basic.repository.MemberRepositoryTests.deleteByMemberAgeGreaterThanEqualTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberRepositoryTests.findByMemberNameEndingWithTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.basic.repository.MemberRepositoryTests.findByMemberNameEndingWithTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberRepositoryTests.findByMemberNameStartingWithTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.basic.repository.MemberRepositoryTests.findByMemberNameStartingWithTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberRepositoryTests.findTop2ByMemberAgeGreaterThanEqualOrderByMemberAgeDescTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.basic.repository.MemberRepositoryTests.findTop2ByMemberAgeGreaterThanEqualOrderByMemberAgeDescTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberRepositoryTests.findTop3ByMemberAgeGreaterThanEqualOrderByMemberAgeDescTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.basic.repository.MemberRepositoryTests.findTop3ByMemberAgeGreaterThanEqualOrderByMemberAgeDescTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="basic.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.basic.BasicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MemberRepositoryTests.deleteByMemberAgeGreaterThanEqualTest" />
+        <item itemvalue="Gradle.MemberRepositoryTests.findTop2ByMemberAgeGreaterThanEqualOrderByMemberAgeDescTest" />
+        <item itemvalue="Gradle.MemberRepositoryTests.findTop3ByMemberAgeGreaterThanEqualOrderByMemberAgeDescTest" />
+        <item itemvalue="Gradle.MemberRepositoryTests.findByMemberNameEndingWithTest" />
+        <item itemvalue="Gradle.MemberRepositoryTests.findByMemberNameStartingWithTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39c77b2b-6418-499a-a65e-f2642f818bda" name="Default Changelist" comment="" />
+      <created>1681200673389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681200673389</updated>
+      <workItem from="1681200683729" duration="1651000" />
+      <workItem from="1681256292435" duration="8582000" />
+      <workItem from="1681349954516" duration="9112000" />
+      <workItem from="1681432969563" duration="15916000" />
+      <workItem from="1681686809116" duration="2616000" />
+      <workItem from="1682301356106" duration="3159000" />
+      <workItem from="1682313265900" duration="5945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2472" y="238" width="816" height="730" key="#Intentions" timestamp="1681201990631">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2472" y="238" width="816" height="730" key="#Intentions/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1681201990631" />
+    <state x="745" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1682316994603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2665" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682303510173" />
+    <state x="745" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1682316994603" />
+    <state x="740" y="300" key="FileChooserDialogImpl" timestamp="1682347649499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="335" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1681686847884" />
+    <state x="740" y="300" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1682347649499" />
+    <state width="1877" height="773" key="GridCell.Tab.0.bottom" timestamp="1682304662663">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="773" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682304662663" />
+    <state width="1877" height="773" key="GridCell.Tab.0.center" timestamp="1682304662663">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="773" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682304662663" />
+    <state width="1877" height="773" key="GridCell.Tab.0.left" timestamp="1682304662662">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="773" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682304662662" />
+    <state width="1877" height="773" key="GridCell.Tab.0.right" timestamp="1682304662663">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="773" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682304662663" />
+    <state width="1877" height="298" key="GridCell.Tab.1.bottom" timestamp="1682303718244">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="298" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682303718244" />
+    <state width="1877" height="298" key="GridCell.Tab.1.center" timestamp="1682303718243">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="298" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682303718243" />
+    <state width="1877" height="298" key="GridCell.Tab.1.left" timestamp="1682303718243">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="298" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682303718243" />
+    <state width="1877" height="298" key="GridCell.Tab.1.right" timestamp="1682303718243">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="298" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682303718243" />
+    <state x="1118" y="227" key="RollbackChangesDialog" timestamp="1682314816721">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1118" y="227" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1682314816721" />
+    <state x="2597" y="112" key="SettingsEditor" timestamp="1681202147079">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2597" y="112" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1681202147079" />
+    <state x="2259" y="240" key="new project wizard" timestamp="1681697269640">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2259" y="240" key="new project wizard/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1681697269640" />
+    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1682314628410">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1682304776538" />
+    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1682314628410" />
+  </component>
+</project>

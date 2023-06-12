@@ -1,0 +1,67 @@
+@Query("update Business b set b.userId = concat(b.userId, '9'), b.updatedDate = current_timestamp where b.address = :address")
+-> b.updatedDate = current_timestamp
+-> 벌크 연산 시, Auditing Listner가 실행되지 않아서 직접 수정 날짜를 현재 시간으로 변경한다.
+
+정규화
+	정규화란, 한 개의 테이블에서 이상현상 또는 동일한 데이터 중복 발생으로 인해 문제가 생길 경우 여러 테이블로 분리하는 작업을 말한다. 
+	정규화 후에는 조회 시 JOIN을 사용하여 데이터를 가져오게 된다.
+
+반정규화
+	정규화란, 한 개의 테이블에서 이상현상 또는 동일한 데이터 중복 발생으로 인해 문제가 생길 경우 여러 테이블로 분리하는 작업을 말한다. 
+	정규화 후에는 조회 시 JOIN을 사용하여 데이터를 가져오게 된다.
+
+정규화: JOINED
+반정규화: SINGLE_COLUMN
+
+public Page<Developer> findAll(Pageable pageable);
+-> import org.springframework.data.domain.Pageable;
+
+Pageable(page, size)
+전달받은 페이지와 게시글 정보 개수를 담는 객체
+
+Page<T>
+조호된 정보와 전체 개수 등 다양한 기능을 제공한다.
+
+PageRequest pageRequest = PageRequest.of(0,5, Sort.Direction.DESC, "id");
+-> page는 0부터 시작
+
+
+#jdbc
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.Oracle10gDriver
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: hr
+    password: hr
+-> localhost를 공용 ip로 바꾸면 됨
+
+Slice에는 전체 페이지 개수와 전체 정보 개수는 가져오지 않는다.
+
+@EntityGraph(attributePaths = {"Reply"})
+-> 연관객체를 작성해주면, 한 방 쿼리가 실행된다.
+
+가짜 매핑(연관관계의 주인으로 접근하지 않고, 반대 방향으로 접근)
+
+만약 전체 게시글 정보가 한 페이지 안에 가져올 수 있을 때에는 List의 size()를 구한다.
+따라서 2페이지 이상부터 count 쿼리가 작성된다.
+
+<성능좋음>
+@Query(value = "select f.member from File f", countQuery = "select count(f.id) from File f")
+
+엔티티
+Enumarated
+순수 JPA
+Persistance Context
+JPQL
+Embeddable, Embedded
+MappedSuperClass
+상속관계(SINGLE_TABLE, JOINED)
+연관관계(1:1, 1:N, N:1, N:N, 단방향, 양방향, mappedBy, CasCade)
+fetch join(select distinct)
+
+Spring-Data-JPA
+Repository(쿼리 메소드, 파라미터 네이밍 바인딩, @Query)
+Auditing(@CreatedDate @LastModifiedDate)
+Page, Slice, PageRequest, Pageable
+Modifying
+EntityGraph

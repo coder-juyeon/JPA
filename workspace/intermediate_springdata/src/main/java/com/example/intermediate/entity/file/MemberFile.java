@@ -11,7 +11,7 @@ import javax.persistence.*;
 @PrimaryKeyJoinColumn(name = "MEMBER_ID")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class MemberFile extends File {
-//    대표 이미지 검사
+    //    대표 이미지 검사
     @Enumerated(EnumType.STRING)
     private RepresentationalType representationalType;
 

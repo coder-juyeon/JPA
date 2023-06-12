@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="024d84be-0d7a-4749-8f55-cc2b7c863bb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../advanced/src/main/java/com/example/advanced/entity/hospital/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../advanced_springdata/src/main/java/com/example/advanced/repository/hospital/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../advanced_springdata/src/test/java/com/example/advanced/entity/hospital/PetRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/employee/DeveloperRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/employee/PlannerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/test/java/com/example/intermediate/entity/employee/DeveloperRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/test/java/com/example/intermediate/entity/employee/PlannerRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic/src/main/java/com/example/basic/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic/src/main/java/com/example/basic/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expert_1/src/main/java/com/example/expert/service/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expert_1/src/main/java/com/example/expert/service/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../memo/day10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../memo/day10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advanced/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../advanced/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/src/main/java/com/example/basic/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../basic/src/main/java/com/example/basic/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../basic/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/src/test/java/com/example/basic/repository/MemberRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../basic/src/test/java/com/example/basic/repository/MemberRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/spy.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/BasicApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/domain/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/domain/entity/SuperCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/exception/NoSuchSuperCarException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/repository/MemberDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/repository/SuperCarDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/repository/SuperCarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/type/MemberType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/java/com/example/basic/type/SuperCarType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/test/java/com/example/basic/BasicApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/test/java/com/example/basic/domain/entity/EntityTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/test/java/com/example/basic/repository/MemberDaoTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/test/java/com/example/basic/repository/MemberRepositoryTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/test/java/com/example/basic/repository/SuperCarDaoTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic_dataspring/src/test/java/com/example/basic/repository/SuperCarRepositoryTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/Board/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/Board/Like.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/entity/registeration/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/entity/registeration/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/entity/registeration/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/repository/board/LikeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/repository/board/LikeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/repository/inquire/BoardDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/repository/inquire/LikeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/repository/registeration/OwnerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/java/com/example/expert/type/BrandType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../expert/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../expert/src/test/java/com/example/expert/board/BoardTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate/src/main/java/com/example/intermediate/audit/Period.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate/src/main/java/com/example/intermediate/audit/Period.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate/src/main/java/com/example/intermediate/entity/file/MEmberFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate/src/main/java/com/example/intermediate/entity/file/MEmberFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/IntermediateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/IntermediateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/audit/Period.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/audit/Period.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/computer/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/computer/Hardware.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/computer/Hardware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/file/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/file/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/file/MemberFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/file/MemberFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/file/ReviewFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/file/ReviewFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/user/Business.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/user/Business.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/user/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/user/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/entity/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/computer/ComputerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/computer/ComputerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/file/MemberFileDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/file/MemberFileDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/file/MemberFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/file/MemberFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/file/ReviewFileDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/file/ReviewFileDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/user/BusinessRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/user/BusinessRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/user/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/java/com/example/intermediate/repository/user/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intermediate_springdata/src/test/java/com/example/intermediate/entity/user/MemberRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../intermediate_springdata/src/test/java/com/example/intermediate/entity/user/MemberRepositoryTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="expert" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="expert" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="expert" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2PJUhpyr4ABbP5GvWUa4tqH9AaH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.expert.repository.pay" />
+      <recent name="com.example.expert.repository.order" />
+      <recent name="com.example.expert.repository.product" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.expert.repository.product" />
+      <recent name="com.example.expert.repository.pay" />
+      <recent name="com.example.expert.repository.member" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ExpertApplication">
+    <configuration name="RepositoryTests.findCountOfOrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.expert.repository.RepositoryTests.findCountOfOrderTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RepositoryTests.findTop1ProductByOrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.expert.repository.RepositoryTests.findTop1ProductByOrderTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RepositoryTests.saveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.expert.repository.RepositoryTests.saveTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="expert [compileQuerydsl]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileQuerydsl" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExpertApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="expert.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.expert.ExpertApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RepositoryTests.findTop1ProductByOrderTest" />
+        <item itemvalue="Gradle.RepositoryTests.findCountOfOrderTest" />
+        <item itemvalue="Gradle.RepositoryTests.saveTest" />
+        <item itemvalue="Gradle.expert [compileQuerydsl]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="024d84be-0d7a-4749-8f55-cc2b7c863bb5" name="Default Changelist" comment="" />
+      <created>1683174799491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683174799491</updated>
+      <workItem from="1683174806867" duration="10578000" />
+      <workItem from="1683189005119" duration="123000" />
+      <workItem from="1683191912614" duration="1006000" />
+      <workItem from="1683194201035" duration="62000" />
+      <workItem from="1683194273558" duration="1954000" />
+      <workItem from="1683302267310" duration="621000" />
+      <workItem from="1683350991183" duration="4733000" />
+      <workItem from="1683365844167" duration="3474000" />
+      <workItem from="1683509030003" duration="3260000" />
+      <workItem from="1683900959235" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="102" key="#Project_Structure" timestamp="1683193873999">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="102" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1683193873999" />
+    <state x="2685" y="285" key="#com.intellij.ide.util.MemberChooser" timestamp="1683185348042">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2685" y="285" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683185348042" />
+    <state x="2482" y="389" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1683175707908">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2482" y="389" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683175707908" />
+    <state x="292" y="275" key="FileChooserDialogImpl" timestamp="1683526260773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="292" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1492.33.1492.1002@0.0.1920.1040" timestamp="1683351255449" />
+    <state x="292" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.33.1492.1002@0.0.1920.1040" timestamp="1683366194902" />
+    <state x="292" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1683526260773" />
+    <state width="921" height="277" key="GridCell.Tab.0.bottom" timestamp="1683365776756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="921" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1492.33.1492.1002@0.0.1920.1040" timestamp="1683352185088" />
+    <state width="1877" height="735" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683185629221" />
+    <state width="921" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.33.1492.1002@0.0.1920.1040" timestamp="1683365776756" />
+    <state width="921" height="277" key="GridCell.Tab.0.center" timestamp="1683365776756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="921" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/-1492.33.1492.1002@0.0.1920.1040" timestamp="1683352185088" />
+    <state width="1877" height="735" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683185629221" />
+    <state width="921" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.33.1492.1002@0.0.1920.1040" timestamp="1683365776756" />
+    <state width="921" height="277" key="GridCell.Tab.0.left" timestamp="1683365776755">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="921" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/-1492.33.1492.1002@0.0.1920.1040" timestamp="1683352185087" />
+    <state width="1877" height="735" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683185629221" />
+    <state width="921" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.33.1492.1002@0.0.1920.1040" timestamp="1683365776755" />
+    <state width="921" height="277" key="GridCell.Tab.0.right" timestamp="1683365776756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="921" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/-1492.33.1492.1002@0.0.1920.1040" timestamp="1683352185088" />
+    <state width="1877" height="735" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683185629221" />
+    <state width="921" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.33.1492.1002@0.0.1920.1040" timestamp="1683365776756" />
+    <state width="921" height="277" key="GridCell.Tab.1.bottom" timestamp="1683365776757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683181626400" />
+    <state width="921" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.33.1492.1002@0.0.1920.1040" timestamp="1683365776757" />
+    <state width="921" height="277" key="GridCell.Tab.1.center" timestamp="1683365776757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="312" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683181626399" />
+    <state width="921" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/1920.33.1492.1002@0.0.1920.1040" timestamp="1683365776757" />
+    <state width="921" height="277" key="GridCell.Tab.1.left" timestamp="1683365776756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="312" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683181626399" />
+    <state width="921" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/1920.33.1492.1002@0.0.1920.1040" timestamp="1683365776756" />
+    <state width="921" height="277" key="GridCell.Tab.1.right" timestamp="1683365776757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="312" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683181626400" />
+    <state width="921" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/1920.33.1492.1002@0.0.1920.1040" timestamp="1683365776757" />
+    <state x="887" y="135" key="RollbackChangesDialog" timestamp="1683426124690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="887" y="135" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1683426124690" />
+    <state x="2381" y="224" key="SettingsEditor" timestamp="1683174987509">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2381" y="224" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683174987509" />
+    <state x="2012" y="92" width="1736" height="976" key="dock-window-1" timestamp="1683180621344">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2012" y="92" width="1736" height="976" key="dock-window-1/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1683180621344" />
+  </component>
+</project>

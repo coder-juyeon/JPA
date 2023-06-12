@@ -1,0 +1,77 @@
+* ctrl + alt + v -> 변수만들기
+
+gradle -> other -> compileQuerydsl
+
+config -> 매번하기 귀찮으니까 한번 선언해서 
+
+ProductQueryDSL
+-> 조회,수정,삭제 save는 JpaRepository쓰면 됨 
+
+Qproduct qProduct = QProduct.product;
+alt + enter -> static import -> 선언한거는 지우기
+-> static import를 통해 선언 없이 바로 product를 사용할 수 있다.
+
+product
+.where(product.id.eq)
+.fetch()
+eq=equal
+ne=not equal
+-> fetch 여러개의 정보를 가져올 때 사용
+-> fetchOne() 한개의 정보를 가져올 때 사용
+-> select() 파라미터는 비우면 안됨
+or도 마침표 찍으면 됨
+
+마지막에 커서 놓고 ctrl+ alt + v => 변수 선언해줌
+List<Tuple> 
+
+공지사항을 저런식으로 하면 됨
+offset
+limit
+-> 페이징처리
+
+set은 한 컬럼당 하나 예) 여러개면 .set().set().set()
+select 빼고 전부 .execute();
+
+entityManager.flush();
+entityManager.clear();
+
+1차 캐시에 저장되어 있어도 쿼리는 발생한다. (몰라도되긴 함) (** 자세히설명)
+queryDSL은 쿼리는 다 나가는데 1차캐시에 있으면 1차캐시꺼 나감
+
+@PersistenceUnit
+    private EntityManagerFactory entityManagerFactory;
+
+entityManagerFactory.getPersistenceUnitUtil().isLoaded()
+
+사용자정의 repository
+-> 지연로딩 확인여부 예)연관객체 조회
+-> entityManagerFactory는 transional이 안먹힘 직접해주기
+
+*JPQL을 사용하는 QueryDSL은 무조건 쿼리가 발생한다.
+ 가져온 결과를 1차 캐시에 INSERT 한다.
+ 만약 동일한 객체가 1차 캐시에 존재하면, 쿼리 실행 결과를 버린다.
+
+<더티체크(변경감지)>
+entity 설계시 @Setter 지우기
+set은 내가 수정하고 싶은것만 set하기
+
+entityManager.refresh(얘)얘만 딱 clear해줌
+
+delete().where() -> from없고 바로 where절
+마지막에 excute() 해주기
+
+<controller 순서>
+엔티티 -> 레파지토리(상속) -> queryDSL 인터페이스 -> Impl클래스 -> 서비스 인터페이스 -> 서비스 -> 컨트롤러
+
+update할때 transactional 걸기
+
+from절에서 서브쿼리 안됨
+서브쿼리 할때는 JPAexpressions. 써주면서 시작하기
+
+page는 0부터시작하는데 
+보통 화면에서는 1부터 받기 때문에 page - 1 해주기
+
+JPAQueryFactory query = new JPAQueryFactory(entityManager);
+-> config 안해주면 이렇게 써야됨
+
+queryDSL은 자동 flush() 해줌

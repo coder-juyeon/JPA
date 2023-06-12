@@ -9,4 +9,5 @@ import java.util.List;
 public interface ComputerRepository extends JpaRepository<Computer, Long> {
     @Query("select c from Computer c where c.hardware.ram = :ram")
     public List<Computer> findByRam(Integer ram);
+
 }

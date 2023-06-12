@@ -37,7 +37,6 @@ public class MemberRepositoryTests {
                 .socialSecurityNumber("000425-7654321")
                 .address("경기도")
                 .build();
-
         memberRepository.saveAll(new ArrayList<Member>(Arrays.asList(member1, member2)));
     }
 

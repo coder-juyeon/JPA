@@ -1,0 +1,46 @@
+QueryDsl 메소드 이름에 언더바 붙여주기 예)메소드_queryDsl 
+
+패치 조인 시, 해당 테이블의 항목만 다른 절에서 사용가능하다.
+pay, pay.order를 패치 조인으로 진행 시, pay만 select 절에서 사용할 수 있다.(pay, order, pay.product X)
+from 절에 pay만 작성하고 다른 절에서 원하는 객체를 그래프 탐색으로 접근해야 한다.
+
+패치 조인을 사용해야 할 때
+해당 객체를 select절에 작성한 뒤 java쪽에서 엔티티 그래프 탐색을 진행할 때
+select(order).from(order).join(order.member).fecthJoin()
+
+패치 조인을 사용하면 안될 때
+select절에 원하는 연관 엔티티를 작성하거나 DTO를 작성해야 할 때
+select(order.member).from(order)
+
+기준
+  1	    :	  N 	=>  	select(a) 쓴다 ( select(a).~ join(). fetchJoin())
+  N 	    :	  1  	=> 	select(b.a)를 쓴다 ( select(b.a) ~ join())
+1-> a
+
+
+패치조인시 추가 적인 조건절은 on절이 아닌 where절에 작성해야 한다.
+
+한방쿼리 작성할때 fetch join 
+a와 b 조인
+select(a.b) join쓴다
+select(a) fetchJoin
+-> join이 낫다.
+
+DTO는 fetch join 사용 불가능
+
+리턴 타입으로 레포지토리를 선택한다.
+
+DTO(QueryProjection)
+- 집계함수 사용
+- 화면으로 여러 엔티티를 보낼 때
+1. 두 개의 엔티티일 경우(fetchJoin, QueryProjection이 필요 없음)
+2. 세 개 이상의 엔티티일 경우(join이 가능하면 QueryProjection사용)
+
+DTO 엔티티 builder 패턴
+service에 default 메소드로 toPayDTO
+service당 default메소드 짜기
+
+serviceImpl에 @Qulifier("member") @Primary
+
+service쪽에서는 return타입에 Optional 쓰지말기
+-> 복잡해짐 

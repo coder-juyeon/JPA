@@ -1,23 +1,30 @@
 package com.example.intermediate.audit;
 
 import lombok.Getter;
+import org.springframework.data.annotation.CreatedBy;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedBy;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import javax.persistence.MappedSuperclass;
-import javax.persistence.PrePersist;
-import javax.persistence.PreUpdate;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
 //    @MappedSuperClass
 //     자바 진영에서는 상속관계이지만, RDB진영에는 상속관계가 아님을 표시할 때 사용.
 //     각 필드를 개별적으로 사용하거나 바로 접근해야 할 때 사용.
 
+@EntityListeners(AuditingEntityListener.class)
 @MappedSuperclass
 @Getter
 public abstract class Period {
+    @CreatedDate
+    @Column(updatable = false)
     private LocalDateTime createdDate;
+    @LastModifiedDate
     private LocalDateTime updatedDate;
 
-    @PrePersist
+    /*@PrePersist
     public void create(){
         this.createdDate = LocalDateTime.now();
         this.updatedDate = LocalDateTime.now();
@@ -26,7 +33,7 @@ public abstract class Period {
     @PreUpdate
     public void update(){
         this.updatedDate = LocalDateTime.now();
-    }
+    }*/
 }
 
 
